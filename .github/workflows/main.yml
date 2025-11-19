@@ -21,4 +21,4 @@ jobs:
     - name: Building
       run: |
         sudo apt install device-tree-compiler -y
-        bash build.sh -m r8s -k y
+        bash build.sh -m r8s -k n
